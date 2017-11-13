@@ -1,0 +1,56 @@
+<!--pages/wallet/wallet.wxml-->
+<view class='page'>
+  <view class='page__bd page__bd_spacing'>
+    <view class="weui-cells__title">
+      <text>利润</text>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+            <view class="weui-cell__bd">24小时利润</view>
+            <view class="weui-cell__ft">2190.00</view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">7日利润</view>
+            <view class="weui-cell__ft">12190.00</view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">30日利润</view>
+            <view class="weui-cell__ft">62190.00</view>
+        </view>
+    </view>
+
+    <view class="weui-cells__title">
+      <text>钱包</text>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+            <view class="weui-cell__bd">CHBTC</view>
+            <view class="weui-cell__ft">
+              <view>￥1801.00</view>
+              <view>10 ETH</view>
+            </view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">HUOBI</view>
+            <view class="weui-cell__ft">
+              <view>￥1801.00</view>
+              <view>10 ETH</view>
+            </view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">KORBIT</view>
+            <view class="weui-cell__ft">
+              <view>￥1801.00</view>
+              <view>10 ETH</view>
+            </view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">BITHUMB</view>
+            <view class="weui-cell__ft">
+              <view>￥1801.00</view>
+              <view>10 ETH</view>
+            </view>
+        </view>
+    </view>
+  </view>
+</view>

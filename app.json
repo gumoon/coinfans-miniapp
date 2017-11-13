@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/market/market",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wallet/wallet",
+    "pages/trade/trade",
+    "pages/oneday/oneday"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Coinfans+",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/market/market",
+        "text": "行情",
+        "iconPath": "/resources/calculator.png",
+        "selectedIconPath": "resources/calculator-selected.png"
+      },
+      {
+        "pagePath": "pages/trade/trade",
+        "text": "交易",
+        "iconPath": "/resources/data.png",
+        "selectedIconPath": "/resources/data-selected.png"
+      },
+      {
+        "pagePath": "pages/wallet/wallet",
+        "text": "钱包",
+        "iconPath": "/resources/wallet.png",
+        "selectedIconPath": "/resources/wallet-selected.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

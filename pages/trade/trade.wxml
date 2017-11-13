@@ -1,0 +1,72 @@
+<!--pages/market/market.wxml-->
+<view class='page'>
+  <view class="page__bd">
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input weui-cell_warn">
+            <view class="weui-cell__hd">
+                <view class="weui-label">请输入交易数</view>
+            </view>
+            <view class="weui-cell__bd fr">
+                <input class="weui-input fr" placeholder="10 ETH"/>
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input weui-cell_warn">
+            <view class="weui-cell__hd">
+                <view class="weui-label">交易差价条件</view>
+            </view>
+            <view class="weui-cell__bd fr">
+                <input class="weui-input fr" placeholder="10元以上"/>
+            </view>
+        </view>
+    </view>
+    <button class="weui-btn" type="primary">开启交易模式</button>
+    <view class="weui-cells__title">
+      <text>交易记录</text>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <view>买：1860</view>
+              <view>卖：1870</view>
+            </view>
+            <view class="weui-cell__ft">￥120.00</view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <view>买：1860</view>
+              <view>卖：1870</view>
+            </view>
+            <view class="weui-cell__ft">￥120.00</view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <view>买：1860</view>
+              <view>卖：1870</view>
+            </view>
+            <view class="weui-cell__ft">￥120.00</view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <view>买：1860</view>
+              <view>卖：1870</view>
+            </view>
+            <view class="weui-cell__ft">￥120.00</view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <view>买：1860</view>
+              <view>卖：1870</view>
+            </view>
+            <view class="weui-cell__ft">￥120.00</view>
+        </view>
+        <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <view>买：1860</view>
+              <view>卖：1870</view>
+            </view>
+            <view class="weui-cell__ft">￥120.00</view>
+        </view>
+    </view>
+    <button bindtap="bindViewTap" class="weui-btn" type="primary">24小时行情</button>
+  </view>
+</view>

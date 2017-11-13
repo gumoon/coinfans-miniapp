@@ -1,0 +1,36 @@
+/* pages/index/index.wxss */
+.weui-label {
+  width:100%;
+  font-size: small;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.duoshao {
+  clear: both;
+}
+
+.junjia-item {
+  width: 300rpx;
+  background-color: grey;
+  padding: 20rpx
+}
+
+.weui-navbar {
+  position: relative;
+}
+
+.vb {
+  width: 300rpx;
+  margin: 20rpx;
+}
+
+.clear {
+  clear: both;
+}

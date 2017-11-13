@@ -1,0 +1,4 @@
+/* pages/market/market.wxss */
+.fr {
+  float: right;
+}
