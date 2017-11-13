@@ -1,0 +1,1 @@
+# coinfans-miniapp
